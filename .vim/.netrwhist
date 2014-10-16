@@ -1,0 +1,3 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/Volumes/Secondary/rasmusprip/Skole/P5/projekt'

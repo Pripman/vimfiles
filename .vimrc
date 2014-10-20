@@ -20,6 +20,8 @@ Plugin 'Syntastic'
 Plugin 'xmledit'
 Plugin 'LaTeX-Box'
 Plugin 'molokai'
+Plugin 'neocomplcache'
+
 " plugin from http://vim-scripts.org/vim/scripts.html
 "Plugin 'L9'
 " Git plugin not hosted on GitHub

@@ -21,6 +21,7 @@ Plugin 'xmledit'
 Plugin 'LaTeX-Box'
 Plugin 'molokai'
 Plugin 'neocomplcache'
+Bundle 'fatih/vim-go'
 
 " plugin from http://vim-scripts.org/vim/scripts.html
 "Plugin 'L9'
@@ -76,5 +77,7 @@ autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 let g:LatexBox_output_type = "pdf"
 inoremap <S-Tab> <C-x><C-o> <Backspace> 
 map <F10> :w<CR>:!xelatex %<CR>
+
+map <F2> :!bash rbuilder<CR>
 
 

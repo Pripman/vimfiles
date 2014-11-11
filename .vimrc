@@ -77,7 +77,5 @@ autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 let g:LatexBox_output_type = "pdf"
 inoremap <S-Tab> <C-x><C-o> <Backspace> 
 map <F10> :w<CR>:!xelatex %<CR>
-
-map <F2> :!bash rbuilder<CR>
-
+map <F2> :w!bash rbuilder<CR>
 

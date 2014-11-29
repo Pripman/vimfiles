@@ -73,9 +73,18 @@ set laststatus=2
 let g:html_indent_inctags = "html,body,head,tbody,div,table,tr,td,th"
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 
+
 "Latex 
 let g:LatexBox_output_type = "pdf"
 inoremap <S-Tab> <C-x><C-o> <Backspace> 
 map <F10> :w<CR>:!xelatex %<CR>
+
+"Map build key(requires rbuilder file present)
 map <F2> :w!bash rbuilder<CR>
 
+"Map escape key to jr
+inoremap jk <esc>
+
+
+"Set the wildmenu when openening new files
+set wildmenu

@@ -18,11 +18,20 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Syntastic'
 Plugin 'xmledit'
-Plugin 'LaTeX-Box'
 Plugin 'molokai'
 Plugin 'neocomplcache'
 Bundle 'fatih/vim-go'
+Bundle 'Lokaltog/vim-powerline'
+Plugin 'fugitive.vim'
+Bundle 'scrooloose/nerdtree'
 
+"Snipmate
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "garbas/vim-snipmate"
+
+" Optional:
+Bundle "honza/vim-snippets"
 " plugin from http://vim-scripts.org/vim/scripts.html
 "Plugin 'L9'
 " Git plugin not hosted on GitHub
@@ -81,7 +90,7 @@ inoremap <S-Tab> <C-x><C-o> <Backspace>
 map <F10> :w<CR>:!xelatex %<CR>
 
 "Map build key(requires rbuilder file present)
-map <F2> :w!bash rbuilder<CR>
+map <F12> :w !bash rbuilder<CR>
 
 "Map escape key to jr
 inoremap jk <esc>
@@ -89,3 +98,4 @@ inoremap jk <esc>
 
 "Set the wildmenu when openening new files
 set wildmenu
+

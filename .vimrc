@@ -54,9 +54,10 @@ filetype plugin indent on    " required
 
 
 "Tabs are spaces
-set expandtab
-set tabstop=4
 
+set tabstop=4
+set shiftwidth=4
+set expandtab
 "Syntax highlighting
 syntax on
 

@@ -91,6 +91,7 @@ map <F10> :w<CR>:!xelatex %<CR>
 
 "Map build key(requires rbuilder file present)
 map <F12> :w !bash rbuilder<CR>
+map <F10> :w !bash rtester<CR>
 
 "Map escape key to jr
 inoremap jk <esc>

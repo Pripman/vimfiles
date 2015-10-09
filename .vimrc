@@ -99,3 +99,6 @@ inoremap jk <esc>
 "Set the wildmenu when openening new files
 set wildmenu
 
+
+"Skeletons
+au BufNewFile *.html 0r ~/.vim/html.skel | let IndentStyle = "html"
